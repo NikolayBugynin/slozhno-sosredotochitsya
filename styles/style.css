@@ -219,6 +219,7 @@
   padding-block-end: 284px;
   display: flex;
   justify-content: center;
+  min-block-size: 100vh;
 }
 
 .footer::before {
@@ -370,7 +371,7 @@
   }
 
   .header__theme-menu-button {
-    padding: 2px 11px;
+    padding: 3px 12px;
   }
 
   .header__theme-menu-button:hover {
