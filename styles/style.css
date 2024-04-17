@@ -17,7 +17,6 @@
   position: relative;
   display: grid;
   padding: 0 10px;
-  block-size: 100%;
 }
 
 .header::before {
@@ -220,7 +219,6 @@
   padding-block-end: 284px;
   display: flex;
   justify-content: center;
-  block-size: 100vh;
 }
 
 .footer::before {
@@ -444,6 +442,6 @@
 
   .footer::after {
     inset-inline-start: 20px;
-    inset-block-end: 160px;
+    inset-block-end: 10px;
   }
 }
