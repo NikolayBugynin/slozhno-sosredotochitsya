@@ -342,7 +342,7 @@
 
   .footer {
     padding-block-start: 524px;
-    padding-block-end: 453px;
+    padding-block-end: 566px;
   }
 
   .footer__heading {
@@ -444,5 +444,6 @@
 
   .footer::after {
     inset-inline-start: 20px;
+    inset-block-end: 160px;
   }
 }
