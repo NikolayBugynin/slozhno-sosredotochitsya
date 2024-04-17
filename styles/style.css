@@ -220,7 +220,7 @@
   padding-block-end: 284px;
   display: flex;
   justify-content: center;
-  block-size: 100%;
+  block-size: 100vh;
 }
 
 .footer::before {
