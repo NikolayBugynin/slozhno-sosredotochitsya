@@ -12,6 +12,7 @@
     --text-color: #f1b2ce;
     --menu-color: #ff0070;
     --description-color: #000028;
+    --display-lamp: flex;
   }
 
   .page {
@@ -21,10 +22,11 @@
 
 .page.theme_dark {
   --accent-color: #ff0070;
-    --heading-color: #db00ff;
-    --title-color: #ff0070;
-    --text-color: #f1b2ce;
-    --menu-color: #ff0070;
-    --description-color: #000028;
+  --heading-color: #db00ff;
+  --title-color: #ff0070;
+  --text-color: #f1b2ce;
+  --menu-color: #ff0070;
+  --description-color: #000028;
+  --display-lamp: flex;
   background-image: url(../images/cover-image-dark.png);
 }

@@ -17,7 +17,7 @@
   position: relative;
   display: grid;
   padding: 0 10px;
-  height: 100%;
+  block-size: 100%;
 }
 
 .header::before {
@@ -44,7 +44,7 @@
 }
 
 .header__lamp {
-  display: var(--display-bulb, none);
+  display: var(--display-lamp, none);
   position: absolute;
   color: var(--accent-color, #ff0070);
   text-transform: uppercase;
@@ -111,8 +111,8 @@
   font-weight: 700;
   line-height: 23.4px;
   text-align: left;
-  block-size: 115px;
-  margin-block-end: 68px;
+  block-size: 118px;
+  margin-block-end: 64px;
 }
 
 .main {
@@ -220,7 +220,7 @@
   padding-block-end: 284px;
   display: flex;
   justify-content: center;
-  height: 100%;
+  block-size: 100%;
 }
 
 .footer::before {
@@ -396,7 +396,8 @@
   }
 
   .header__description {
-    width: 492px;
+    inline-size: 492px;
+    block-size: 71px;
     justify-self: end;
     margin-block-start: 59px;
     margin-block-end: 135px;
