@@ -360,15 +360,12 @@
 @media (width >= 1024px) {
   .header__theme-menu-list {
     flex-direction: row;
+    margin-block-start: 20px;
   }
 
   .header__theme-menu {
     display: inline-flex;
     justify-content: center;
-  }
-
-  .header__theme-menu-list {
-    margin-block-start: 20px;
   }
 
   .header__theme-menu-button {
