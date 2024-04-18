@@ -217,10 +217,11 @@
 
 .footer {
   position: relative;
-  padding-block-start: 328px;
-  padding-block-end: 285px;
+  /* padding-block-start: 328px;
+  padding-block-end: 285px; */
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 668px;
   max-height: 100vh;
 }
