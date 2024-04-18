@@ -217,11 +217,12 @@
 
 .footer {
   position: relative;
-  padding-block-start: 329px;
-  padding-block-end: 280px;
+  padding-block-start: 328px;
+  padding-block-end: 285px;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 668px;
+  max-height: 100vh;
 }
 
 .footer::before {
@@ -343,6 +344,7 @@
   }
 
   .footer {
+    min-height: 1024px;
     padding-block-start: 524px;
     padding-block-end: 550px;
   }
@@ -435,6 +437,7 @@
   }
 
   .footer {
+    min-height: 768px;
     padding-block-start: 382px;
     padding-block-end: 307px;
   }
