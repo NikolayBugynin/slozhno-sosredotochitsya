@@ -17,6 +17,8 @@
   position: relative;
   display: grid;
   padding: 0 10px;
+  min-height: 668px;
+  max-height: 100vh;
 }
 
 .header::before {
@@ -219,7 +221,8 @@
   padding-block-end: 284px;
   display: flex;
   justify-content: center;
-  min-block-size: 100vh;
+  min-height: 668px;
+  max-height: 100vh;
 }
 
 .footer::before {
