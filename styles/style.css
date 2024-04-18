@@ -221,8 +221,7 @@
   padding-block-end: 280px;
   display: flex;
   justify-content: center;
-  min-height: 668px;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .footer::before {
