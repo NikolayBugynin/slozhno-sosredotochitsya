@@ -18,6 +18,10 @@
   grid-template-rows: 240px min-content 225px;
 }
 
+.header__heading {
+  text-shadow: 4px 4px var(--shadow-color, #ff0070);
+}
+
 .decorated-zone {
   position: relative;
   display: grid;
@@ -74,7 +78,6 @@
   font-weight: bold;
   line-height: 95.7px;
   color: var(--heading-color, #db00ff);
-  text-shadow: 4px 4px var(--shadow-color, #ff0070);
 }
 
 .header__theme-menu {
@@ -226,6 +229,10 @@
   align-items: center;
 }
 
+.footer__heading {
+  text-shadow: 2px 2px var(--shadow-color, #ff0070);
+}
+
 @media (width >= 768px) {
   .header {
     padding: 0 20px;
@@ -277,10 +284,6 @@
 
   .section-why {
     grid-template-columns: 236px 1fr;
-  }
-
-  .section__title-why {
-    grid-row-start: span 2;
   }
 
   .section__title-what {
@@ -400,5 +403,4 @@
   .section__images {
     grid-template-rows: auto 260px 315px 433px;
   }
-
 }
