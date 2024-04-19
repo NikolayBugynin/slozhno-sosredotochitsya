@@ -13,6 +13,7 @@
   --heading-color: #ffc2e6;
   --shadow-color: #ff0070;
   --description-color: #353430;
+  --hover-border-color: rgba(50, 49, 45, 0.4);
   --display-bulb: none;
   background-image: url(../images/cover-image-light.png);
 }

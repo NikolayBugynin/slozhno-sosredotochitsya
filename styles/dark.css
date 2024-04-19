@@ -12,6 +12,7 @@
     --text-color: #f1b2ce;
     --menu-color: #ff0070;
     --description-color: #000028;
+   --hover-border-color: rgba(255, 0, 112, 0.4);
     --display-lamp: flex;
   }
 
@@ -27,6 +28,7 @@
   --text-color: #f1b2ce;
   --menu-color: #ff0070;
   --description-color: #000028;
+  --hover-border-color: rgba(255, 0, 112, 0.4);
   --display-lamp: flex;
   background-image: url(../images/cover-image-dark.png);
 }
