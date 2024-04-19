@@ -126,10 +126,7 @@
   background-color: var(--accent-color, #ff0070);
   color: var(--description-color, #353430);
   align-self: center;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 23.4px;
-  text-align: left;
 }
 
 .main {
@@ -146,10 +143,44 @@
   gap: 20px;
 }
 
+.section__title {
+  font-size: inherit;
+  color: var(--title-color, #ff0070);
+}
+
+.article__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section__subtitle {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  background-color: var(--accent-color, #ff0070);
+  color: rgba(0, 0, 40, 1);
+}
+
 .article {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.article__title {
+  font-size: var(--font-size, 18px);
+  background-color: var(--accent-color, #ff0070);
+  color: rgba(0, 0, 40, 1);
+}
+
+.article__title-how {
+  font-weight: 400;
+}
+
+.article__description {
+  color: var(--text-color, #f1b2ce);
 }
 
 .article__description-link {
@@ -169,44 +200,6 @@
   outline: 1px solid var(--text-color, #353430);
 }
 
-.section__title {
-  font-size: inherit;
-  color: var(--title-color, #ff0070);
-  font-weight: 700;
-  line-height: 23.4px;
-  text-align: left;
-}
-
-.section__subtitle {
-  font-size: inherit;
-  font-weight: 700;
-  line-height: 23.4px;
-  text-align: left;
-  background-color: var(--accent-color, #ff0070);
-  color: rgba(0, 0, 40, 1);
-}
-
-.article__title {
-  font-size: var(--font-size, 18px);
-  font-weight: 700;
-  line-height: 23.4px;
-  text-align: left;
-  background-color: var(--accent-color, #ff0070);
-  color: rgba(0, 0, 40, 1);
-}
-
-.article__title-how {
-  font-weight: 400;
-}
-
-.article__description {
-  color: var(--text-color, #f1b2ce);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 23.4px;
-  text-align: left;
-}
-
 .section__images {
   display: flex;
   flex-direction: column;
@@ -224,12 +217,6 @@
   inline-size: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.article__container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .footer {
@@ -414,7 +401,4 @@
     grid-template-rows: auto 260px 315px 433px;
   }
 
-  .footer__heading {
-    line-height: 129.53px;
-  }
 }
