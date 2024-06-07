@@ -1,30 +1,30 @@
 /* Основные стили проекта. */
 
 .page {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--background-color, #fff);
-  color: var(--text-color, #000000);
-  padding: 68px 0;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding: 68px 0;
+  color: var(--text-color, #000000);
+  font-family: 'Roboto', sans-serif;
   font-size: var(--font-size, 17px);
+  background-color: var(--background-color, #fff);
 }
 
 .section__title {
-  font-size: 36px;
+  margin-block-end: 20px;
   font-weight: 700;
+  font-size: 36px;
   line-height: 40px;
   text-align: left;
-  margin-block-end: 20px;
 }
 
 /* стиль блока, где мы ограничиивем ширину контента до 680px*/
 .text-conteiner {
-  max-width: 680px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 680px;
 }
 
 .section {
@@ -49,32 +49,32 @@
 
 .arctic__image {
   width: 100%;
+  margin-block-start: 48px;
   object-fit: cover;
   object-position: center;
-  margin-block-start: 48px;
 }
 
 .arctic__image-description {
+  max-width: 680px;
   margin-block-start: 4px;
   font-weight: 400;
-  line-height: 24px;
-  max-width: 680px;
   font-size: 15px;
+  line-height: 24px;
 }
 
 .section__list-title {
-  font-size: var(--font-size, 17px);
   margin-block-start: 20px;
   font-weight: 700;
+  font-size: var(--font-size, 17px);
   line-height: 26px;
 }
 
 .section__list-items {
-  padding-inline-start: 30px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-block-start: 12px;
+  padding-inline-start: 30px;
 }
 
 .section__list-item {
@@ -94,32 +94,32 @@
 
 .section__text-wildberries {
   max-width: 264px;
-  font-size: 13px;
   font-weight: 400;
+  font-size: 13px;
   line-height: 20px;
   text-align: left;
 }
 
 .link {
-  cursor: pointer;
-  text-decoration: none;
   color: var(--link-color, #0068ff);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .section-experience {
-  max-width: 680px;
   position: relative;
+  max-width: 680px;
+  margin-block-end: 14px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   padding: 26px 32px;
-  margin-block-end: 14px;
 }
 
 .section__title-experience {
-  font-size: 22px;
+  margin-block-end: 16px;
   font-weight: 700;
+  font-size: 22px;
   line-height: 30px;
   text-align: left;
-  margin-block-end: 16px;
 }
 
 .link-experience {
@@ -140,8 +140,8 @@
 }
 
 .section-experience::before {
-  position: absolute;
   content: url(../images/yellow-arrow.png);
+  position: absolute;
   inset-inline-end: 54px;
   inset-block-start: 0;
 }
@@ -176,25 +176,25 @@
 }
 
 .link-factory {
-  grid-column-start: 2;
   grid-row: 1/3;
+  grid-column-start: 2;
 }
 
 .factory__image {
-  object-fit: cover;
-  object-position: center;
   width: 264px;
   height: 140px;
   margin-block-start: 10px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .factory__description {
-  font-weight: 400;
-  line-height: 20px;
   max-width: 264px;
-  font-size: 13px;
-  padding-inline-end: 60px;
   margin-block-start: 7px;
+  padding-inline-end: 60px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .link-container-facory {
@@ -205,12 +205,12 @@
 }
 
 .blockquote {
-  border-inline-start: 1px black solid;
-  max-width: 680px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  max-width: 680px;
   margin: 48px 0;
+  border-inline-start: 1px black solid;
 }
 
 .blockquote__conteiner {
@@ -230,36 +230,36 @@
 .blockquote__author-avatar {
   width: 40px;
   height: 40px;
+  margin-inline-end: 12px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-size: cover;
   background-position: center;
-  margin-inline-end: 12px;
+  background-size: cover;
 }
 
 .blockquote__author-name {
-  font-size: 15px;
   font-weight: 700;
+  font-size: 15px;
   line-height: 20px;
 }
 
 .blockquote__author-job {
-  font-size: 13px;
   font-weight: 400;
+  font-size: 13px;
   line-height: 20px;
 }
 
 @media (width < 1440px) {
   .page {
     align-items: center;
-    padding: 40px 80px;
     gap: 23px;
+    padding: 40px 80px;
   }
 
   .section__title {
-    font-size: 24px;
     margin-block-end: 10px;
+    font-size: 24px;
   }
 
   .text-conteiner {
@@ -272,9 +272,9 @@
 
   .arctic__image {
     position: relative;
+    margin-block-start: 30px;
     inline-size: calc(100% + 160px);
     inset-inline-end: 80px;
-    margin-block-start: 30px;
   }
 
   .arctic__image-description {
@@ -286,27 +286,27 @@
   }
 
   .link-container {
+    flex-direction: column;
     gap: 16px;
     align-self: center;
-    flex-direction: column;
     margin-block-start: 16px;
     margin-block-end: 16px;
   }
 
   .link-container-facory {
-    align-self: flex-start;
     display: flex;
+    align-self: flex-start;
   }
 
   .section__text-wildberries {
     max-width: 380px;
-    line-height: 18px;
     margin-inline-start: 44px;
+    line-height: 18px;
   }
 
   .section__title-experience {
-    font-size: 19px;
     margin-block-start: 5px;
+    font-size: 19px;
   }
 
   .section-experience::before {
@@ -323,13 +323,13 @@
   }
 
   .section__title-kitchen {
-    line-height: 25px;
     margin-block-end: 15px;
+    line-height: 25px;
   }
 
   .factory {
-    padding-inline-start: 32px;
     align-items: flex-start;
+    padding-inline-start: 32px;
   }
 
   .factory__image {
@@ -339,8 +339,8 @@
   }
 
   .factory__description {
-    padding-inline-end: 0;
     max-width: 314px;
+    padding-inline-end: 0;
   }
 
   .blockquote {
@@ -360,8 +360,8 @@
   }
 
   .section__title {
-    line-height: 24px;
     margin-block-end: 16px;
+    line-height: 24px;
   }
 
   .arctic__image {
@@ -383,9 +383,9 @@
   }
 
   .section-experience {
+    margin-block-end: 16px;
     padding: 7px 16px 18px;
     overflow: hidden;
-    margin-block-end: 16px;
   }
 
   .section__experience-list {
@@ -408,8 +408,8 @@
 
   .factory__description {
     max-width: 146px;
-    line-height: 18px;
     margin-block-start: 10px;
+    line-height: 18px;
   }
 
   .blockquote {
