@@ -4,240 +4,292 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
-    <title>Сложно сосредоточиться</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <title>Как выбрать товар для входа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/light.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
   </head>
   <body class="page">
-    <header class="header decorated-zone">
-      <span class="header__lamp" aria-hidden="true">rec</span>
-      <nav class="header__theme-menu">
-        <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
+    <section class="section">
+      <h1 class="section__title">Как выбрать товар для входа</h1>
+      <div class="text-conteiner">
+        <p class="section__text">
+          Маркет очень быстро меняется. Буквально каждый квартал меняются
+          условия работы и инструменты для продвижения. Рассказываем о тех,
+          которые существуют на момент работы над статьей.
+        </p>
+        <p class="section__text">
+          Интеграция с рекламной площадкой «Яндекс.Директ». Этот инструмент
+          позволяет настраивать рекламу в Яндекс.Директе: с ней карточка товара
+          будет видна любому пользователю, кто ищет ваш товар через поиск.
+        </p>
+        <p class="section__text">
+          Площадка компенсирует до 100% затрат магазина на рекламу в
+          Яндекс.Директе или 10% оборота на маркетплейсе, возвращает маркетплейс
+          меньшую из сумм.
+        </p>
+        <p class="section__text">
+          Деньги, которые площадка вернет продавцу в виде бонусов, можно
+          использовать на рекламу снова. Вывести их на счет в виде живых денег
+          нельзя.
+        </p>
+      </div>
+      <figure class="figure arctic">
+        <picture>
+          <source srcset="./images/arctic.avif" type="image/avif" />
+          <source srcset="./images/arctic.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            class="arctic__image"
+            src="./images/arctic.png"
+            alt="Стадо оленей пасутся у воды темного и светлого цветов, темных больше"
+          />
+        </picture>
+
+        <figcaption class="arctic__image-description">
+          Редкий теплый день в Арктике. Обычно надо сидеть в балке́, это крытая
+          красная повозка позади меня. В ней места немного, и у каждого своя
+          работа. Бывает, страшно задеть чей-то проводок. А когда удается
+          поработать на улице, можно расслабиться <br />
+          Источник: Е.И. Буковецкий, «Фотограф-любитель»
+        </figcaption>
+      </figure>
+      <div class="text-conteiner">
+        <p class="section__text">
+          И наоборот: если товар очень популярный, у него 3000—4000 продаж и
+          больше 150 отзывов, новичку будет сложно с ним конкурировать. Придется
+          назначать цену ниже и много вкладывать в рекламу.
+        </p>
+      </div>
+      <h3 class="section__list-title">Поставщиком может стать:</h3>
+      <ol class="section__list-items">
+        <li class="section__list-item">с высоким спросом;</li>
+        <li class="section__list-item">у которых 50—100 отзывов;</li>
+        <li class="section__list-item">у которых маржинальность выше 100%;</li>
+        <li class="section__list-item">
+          небольшого веса и объема, единого размера.
+        </li>
+      </ol>
+    </section>
+    <section class="section">
+      <h2 class="section__title">Преимущества Wildberries</h2>
+      <div class="text-conteiner">
+        <p class="section__text">
+          <span class="section__text-accent">Легко стать поставщиком.</span>
+          Нужно зарегистрироваться на сайте для партнеров, заполнить анкету,
+          подписать оферту и оформить карточку товара. После этого товар сразу
+          попадает на витрину.
+        </p>
+      </div>
+      <div class="link-container link-container-wildberries">
+        <div class="text-conteiner">
+          <p class="section__text">
+            <span class="section__text-accent"
+              >Проработанная система доставки.</span
             >
-              День
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
-            >
-              Авто
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
-            >
-              Неон
-            </button>
-          </li>
-        </ul>
-      </nav>
-      <h1 class="header__heading heading">no focus</h1>
-      <p class="header__description">
-        Что делать, когда не можешь делать ничего<br />
-        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </p>
-    </header>
-    <main class="main">
-      <section class="section section-why">
-        <h2 class="section__title section__title-why">
-          Почему сосредоточиться так сложно
-        </h2>
-        <div class="article__container">
-          <article class="article">
-            <h3 class="article__title">Многозадачность</h3>
-            <p class="article__description">
-              Особенно сложно сосредоточиться, когда задач много и все они —
-              важные. Где же легендарная многозадачность, когда она так нужна
-              вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
-              её просто не существует. Исследователи
-              <a
-                class="article__description-link"
-                href="https://dana.org/article/multicosts-of-multitasking/"
-                target="_blank"
-                >выяснили</a
-              >, что мозгу тяжело концентрироваться даже на двух делах
-              одновременно. А когда в поле внимания попадает несколько важных
-              задач, организм паникует и выделяет кортизол и адреналин —
-              «гормоны стресса». Из-за этого мы работаем невнимательно:
-              ошибаемся и быстро устаём.
-            </p>
-          </article>
-          <article class="article">
-            <h3 class="article__title">Дофамин</h3>
-            <p class="article__description">
-              С гормонами стресса всё понятно, но дальше — ещё интереснее. В
-              нашей невозможности сосредоточиться замешана и полная
-              противоположность стрессу — дофамин. Это вещество участвует в
-              системе вознаграждения мозга. Причём тут он? Мы часто отвлекаемся
-              от важной задачи на что-то более «приятное» для мозгов. Например,
-              смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы
-              чувствуем удовольствие. Получается замкнутый круг: чем больше
-              отвлекаешься, тем больше удовольствия получаешь.
-            </p>
-          </article>
+            У Wildberries 13 складов в разных регионах России, поставщик может
+            выбрать тот, куда ему удобно отгружать товар. Московские компании
+            могут хранить товар в Коледино, сибирские — в Новосибирске,
+            уральские — в Екатеринбурге.
+          </p>
         </div>
-      </section>
-      <section class="section section-what">
-        <h2 class="section__title section__title-what">
-          Что снижает концентрацию внимания?
-        </h2>
-        <article class="article">
-          <h3 class="article__title">Многозадачность</h3>
-          <p class="article__description">
-            Как концентрация может снижаться из-за… концентрации? Любая
-            стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш
-            мозг постоянно «сканировать» окружающую среду на предмет опасности.
-            Например, читать новости вместо работы. Но быть собранными всё время
-            — невозможно. Концентрация — мышца, и она может не выдержать, если
-            не давать ей отдохнуть.
+        <a class="link section__text-wildberries" href="#">
+          Wildberries — международный маркетплейс одежды, обуви, электроники,
+          детских товаров, товаров для домаи других товаро.
+        </a>
+      </div>
+      <div class="text-conteiner">
+        <p class="section__text">
+          У маркетплейса 115 000 пунктов выдачи и постаматов, более 5000
+          курьеров, поэтому товар быстро доставят покупателю.
+        </p>
+        <p class="section__text">
+          <span class="section__text-accent"
+            >Мощная реклама и большая аудитория.</span
+          >
+          Продавцу не нужно вкладывать деньги в продвижение площадки,
+          Wildberries сам привлекает клиентов. Маркетплейс проводит рекламные
+          кампании в СМИ и соцсетях, привлекает покупателей акциями и скидками.
+          Благодаря этому на сайт Wildberries ежедневно заходят больше 11,5 млн
+          человек.
+        </p>
+      </div>
+    </section>
+    <section class="section section-experience">
+      <h2 class="section__title-experience">
+        Читайте
+        <span class="section__title-experience-accent">личный опыт</span>
+        предпринимателей
+      </h2>
+      <ul class="section__experience-list">
+        <li class="section__experience-item">
+          <a class="link link-experience" href="#"
+            ><p class="link__experience-text">
+              Как управлять пространством ювелирного магазина, чтобы продажи
+              росли
+            </p>
+            <img
+              loading="lazy"
+              class="experience-img"
+              src="./images/jewelry-shop.png"
+              alt="фото мужчины стреднего возраста"
+          /></a>
+        </li>
+        <li class="section__experience-item">
+          <a class="link link-experience" href="#">
+            <p class="link__experience-text">
+              Как внедрить искусственный интеллект в работу с документами и не
+              разочароваться
+            </p>
+            <img
+              loading="lazy"
+              class="experience-img"
+              src="./images/ai.png"
+              alt="фото мужчины стреднего возраста, с усами и с бородой"
+            />
+          </a>
+        </li>
+        <li class="section__experience-item">
+          <a class="link link-experience" href="#"
+            ><p class="link__experience-text">
+              Как правильно применять технологии в консалтинге?
+            </p>
+            <img
+              loading="lazy"
+              class="experience-img"
+              src="./images/consulting.png"
+              alt="молодая девушка, азиатской внешности, 25-30 лет, в прозрачных очках держит в руках смартфон"
+          /></a>
+        </li>
+        <li class="section__experience-item">
+          <a class="link link-experience" href="#"
+            ><p class="link__experience-text">
+              Как сохранить бизнес в период неопределенности
+            </p>
+            <img
+              loading="lazy"
+              class="experience-img"
+              src="./images/uncertainty.png"
+              alt="молодая девушка, европейской внешности, 25-30лет, с завязанным платком на голове и пирсингом в носу"
+          /></a>
+        </li>
+        <li class="section__experience-item">
+          <a class="link link-experience" href="#"
+            ><p class="link__experience-text">
+              Как мы пережили 5 экономических кризисов за последние 30 лет в
+              России
+            </p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2 class="section__title section__title-kitchen">
+        На запах кухни приходят медведи, а песцы разворовывают запасы еды
+      </h2>
+      <div class="text-conteiner">
+        <p class="section__text">
+          Мы помогаем МГУ организовывать практику и вывозим студентов изучать
+          мерзлоту. Ребята, которые приехали учиться из центральных или из южных
+          регионов, только теоретически могут представить себе, что это такое.Но
+          они не почувствуют, что значит холод и пурга, пока сами не увидят их.
+        </p>
+      </div>
+      <div class="link-container link-container-facory">
+        <div class="text-conteiner">
+          <p class="section__text">
+            В организацию практики студентов мы вкладываем до 10% от оборота.
+            Сами на этом не зарабатываем, просто радуемся, что можем показать им
+            настоящую работу.
           </p>
-        </article>
-        <article class="article">
-          <h3 class="article__title">Еда</h3>
-          <p class="article__description">
-            «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
-            доставляют в мозг энергию и помогают ему лучше работать. Но уходит
-            эта энергия также быстро, как и приходит. А мы в результате попадаем
-            на «углеводные качели»: как только действие «быстрых углеводов»
-            заканчивается, мы чувствуем усталость и сонливость. И хотим ещё
-            больше быстрых углеводов.
-          </p>
-        </article>
-        <article class="article">
-          <h3 class="article__title">Гаджеты</h3>
-          <p class="article__description">
-            Да-да, это та самая ситуация, когда на экране ноутбука — код, в
-            наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными
-            утятами. В результате мозг пытается переключиться с одной задачи на
-            другую — и просто не может. А чтобы вернуться к состоянию полной
-            концентрации, человеку в среднем нужно 20 минут. Вот и получается,
-            что чем больше времени мы проводим в гаджетах, тем больше времени
-            затем нужно, чтобы вернуться к работе.
-          </p>
-        </article>
-      </section>
-      <section class="section section-how">
-        <h2 class="section__title section__title-how">
-          Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
-          секунд)
-        </h2>
-        <div class="article__container">
-          <h3 class="section__subtitle section__subtitle-how">
-            5 простых (на самом деле не очень) советов
-          </h3>
-          <article class="article">
-            <h4 class="article__title article__title-how">
-              Представьте небо и облака
-            </h4>
-            <p class="article__description">
-              Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
-              успокоиться. Ведь часто именно тревожные мысли о сложных задачах
-              как раз и мешают эти сложные задачи делать. В такие моменты можно
-              закрыть глаза и представить, что чистое небо — это вы, а облака —
-              тревожные мысли. И сколько бы их ни было — ясное небо всегда будет
-              где-то там, за тучами, и никуда не денется. Это упражнение поможет
-              вернуться в настоящий момент, а не волноваться о потенциальных
-              проблемах из будущего.
-            </p>
-          </article>
-          <article class="article">
-            <h4 class="article__title article__title-how">Включите музыку</h4>
-            <p class="article__description">
-              Но не любую, и не любимую. Любимая может быть связана с сильными
-              положительными эмоциями, которые тоже очень сильно отвлекают.
-              Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
-              попробовать включить плейлист в «белым шумом» или нейромузыкой.
-            </p>
-          </article>
-          <article class="article">
-            <h4 class="article__title article__title-how">Прогуляйтесь</h4>
-            <p class="article__description">
-              Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <a
-                class="article__description-link"
-                href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
-                target="_blank"
-                >показал</a
-              >, что созерцание природы повышает концентрацию, в то время как
-              после просмотра городских пейзажей она наоборот понижается. Можно
-              совместить прогулку с физическими упражнениями или бегом — так в
-              мозг поступит ещё больше кислорода и он будет лучше работать. Но и
-              простая двадцатиминутная прогулка — тоже отличный вариант.
-            </p>
-          </article>
-          <article class="article">
-            <h4 class="article__title article__title-how">Хорошо ешьте</h4>
-            <p class="article__description">
-              Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
-              которые препятствуют резким скачкам сахара в крови. Например, с
-              высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
-              чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
-            </p>
-          </article>
-          <article class="article">
-            <h4 class="article__title article__title-how">Читайте</h4>
-            <p class="article__description">
-              Настоящие бумажные книги. Это правда помогает с концентрацией:
-              чтобы прочитать пост в соцсети, достаточно нескольких минут или
-              даже секунд. А вот интересная книга способна затянуть и на
-              несколько часов и круто тренирует направленное внимание.
-            </p>
-          </article>
         </div>
-      </section>
-      <section class="section section__images">
-        <h2 class="section__subtitle section__subtitle-images">
-          А можно в картинках?
-        </h2>
-        <img
-          src="./images/sunset.png"
-          class="section__image section__image-sunset"
-          alt="закат"
-          loading="lazy"
-        />
-        <img
-          src="./images/ice-cream.png"
-          alt="мультяшное мороженое"
-          class="section__image section__image-ice-cream"
-          loading="lazy"
-        />
-        <img
-          src="./images/tape.png"
-          alt="аудиокасетта"
-          class="section__image section__image-tape"
-          loading="lazy"
-        />
-        <img
-          src="./images/books.png"
-          alt="стопка книг"
-          class="section__image section__image-books"
-          loading="lazy"
-        />
-        <img
-          src="./images/street.png"
-          alt="городская улица"
-          class="section__image section__image-street"
-          loading="lazy"
-        />
-      </section>
-    </main>
-    <footer class="footer decorated-zone">
-      <h2 class="footer__heading heading">focus</h2>
-    </footer>
-    <script src="./scripts/script.js"></script>
+        <a class="link link-factory" href="#"
+          ><figure class="figure factory">
+            <img
+              loading="lazy"
+              class="factory__image"
+              src="./images/factory.png"
+              alt="молодая девушка, европейской внешности, 25-30лет, стоит в производсвенным зале, в бежевом платье, на фоне видны станки для какого-либо производства"
+            />
+            <figcaption class="factory__description">
+              «Обманулась, но смогла выбрать фабрику»: вторая серия реалити-шоу
+            </figcaption>
+          </figure>
+        </a>
+        <div class="text-conteiner">
+          <p class="section__text">
+            У студентов есть два варианта практики — производственная и
+            учебная.На производственной практике — работа с настоящим заказом.
+            Например, есть задание — отбирать образцы грунта, упаковывать их,
+            делать этикетки.За выполнение студент получает оплату.
+          </p>
+        </div>
+      </div>
+      <div class="text-conteiner">
+        <p class="section__text">
+          А учебная практика проходит так: сначала студенты приезжают на участок
+          работ, который им заранее «подготовили» преподаватели, все
+          осматривают. Потом получают приборы, чтобы делать замеры, и в конце
+          дня составляют свою карту.На карте нужно указать, где, по их мнению,
+          льды, где мерзлые и талые породы, где пески или глины. По итогам
+          практики эту карту нужно будет защитить перед преподавателями.
+        </p>
+      </div>
+      <blockquote class="blockquote">
+        <div class="blockquote__conteiner">
+          <div class="text-conteiner blockquote__discription">
+            <p class="section__text">
+              «Я фотографирую все изделия сам. Не пользуюсь услугами предметного
+              фотографа. Фотографировать шелк сложно: надо передать текстуру и
+              блики света. Обычно конкуренты снимают шелковые изделия на
+              девушках — так проще показать товар. Но мне кажется, что люди и
+              посторонние предметы в кадре отвлекают от товара. Поэтому
+              предпочитаю снимать изделия на белом фоне без лишних деталей.
+            </p>
+            <p class="section__text">
+              Несомненно, на модели проще показать, как использовать товар Но мы
+              планируем выкладывать видео по использованию наших изделий.
+              Например, как правильно надевать чалму на голову. Так мы не
+              отойдем от концепции фотографий и поможем покупателю пользоваться
+              товаром правильно»
+            </p>
+          </div>
+          <div class="blockquote__author">
+            <img
+              loading="lazy"
+              class="blockquote__author-avatar"
+              src="./images/kirils-avatar.png"
+              alt="аватарка парня, с длинными волосами, взгляд направлен в противоложную сторону от фотографа"
+            />
+            <div class="blockquote__name-container">
+              <p class="blockquote__author-name">Кирилл Пургин</p>
+              <p class="blockquote__author-job">Основатель бренда</p>
+            </div>
+          </div>
+        </div>
+      </blockquote>
+      <div class="text-conteiner">
+        <p class="section__text">
+          Часть наших сотрудников преподают в МГУ. Лекции можем вести прямоиз
+          экспедиции, обычно из рубки нашего судна. Если один из нас занят,его
+          подменят. Например, сейчас моя очередь работать на льду, я выхожу на
+          смену, а мои лекции читает наш главный геолог, Алексей Гунар.
+        </p>
+        <p class="section__text">
+          В районах, где есть интернет, общаемся со студентами по Zoom. Но,
+          конечно, это не везде возможно, поэтому в следующих поездках планируем
+          работать со спутниковой связью VSAT. Обещают стабильную работу.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
